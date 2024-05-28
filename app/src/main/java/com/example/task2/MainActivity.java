@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
             user.country = myUser.country;
             user.img = myUser.img;
             db.userDao().insertUser(user);
+//            db.userDao().deleteAllUsers();
             Toast.makeText(MainActivity.this, "User added to collection", Toast.LENGTH_SHORT).show();
         });
 
